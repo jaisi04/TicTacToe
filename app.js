@@ -10,7 +10,6 @@ http.createServer(function (request, response) {
     if (filePath == './') {
         filePath = './index.html';
     }
-
     var extname = String(path.extname(filePath)).toLowerCase();
     var mimeTypes = {
         '.html': 'text/html',
