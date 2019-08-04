@@ -1,0 +1,46 @@
+body{
+    padding-block: 4vh;
+    background-color: cadetblue;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font: outline;
+    font-style: normal;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    margin: 4vh 12vh;
+    height: 80vh;
+    background-color: beige;
+}
+
+#gameBoard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid blueviolet;
+}
+
+#restartBtn{
+    display:inline-block;
+    padding: 1%;
+    border-radius: 4%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s;
+    background-color: cadetblue;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#restartBtn:hover {
+    color:#27105e;
+    background-color: beige;
+}
